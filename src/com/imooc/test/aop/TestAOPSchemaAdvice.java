@@ -12,7 +12,7 @@ import com.imooc.test.base.UnitTestBase;
 public class TestAOPSchemaAdvice extends UnitTestBase {
 	
 	public TestAOPSchemaAdvice() {
-		super("classpath:spring-aop-schema-advice.xml");
+		super("classpath:resources/spring-aop-schema-advice.xml");
 	}
 	
 	@Test
