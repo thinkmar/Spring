@@ -28,7 +28,7 @@ public class TestBeanScope extends UnitTestBase {
     }
 
     /**
-     * scope="singleton"时,同时运行testSay(),testSay2()两个函数输出的hashCode不同
+     * 即使scope="singleton"时,同时运行testSay(),testSay2()两个函数输出的hashCode不同
      * 因为每个方法执行前都会初始化一个ApplicationContext
      */
     @Test
