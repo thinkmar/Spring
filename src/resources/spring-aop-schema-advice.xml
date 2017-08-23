@@ -23,9 +23,9 @@
 <!-- 			<aop:around method="aroundInit" pointcut="execution(* com.imooc.aop.schema.advice.biz.AspectBiz.init(String, int))  -->
 <!-- 							and args(bizName, times)"/> -->
 
-				<aop:declare-parents types-matching="com.imooc.aop.schema.advice.biz.*(+)" 
-							implement-interface="com.imooc.aop.schema.advice.Fit"
-							default-impl="com.imooc.aop.schema.advice.FitImpl"/>
+				<aop:declare-parents types-matching="com.imooc.aop.schema.advice.biz.*(+)"
+									 implement-interface="com.imooc.aop.schema.advice.Fit"
+									 default-impl="com.imooc.aop.schema.advice.FitImpl"/>
 		</aop:aspect>
 	</aop:config>
 
