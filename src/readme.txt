@@ -1,1 +1,2 @@
-resources对应所有配置文件
+src/resources对应所有配置文件
+src/com/imooc对应所有的类文件
